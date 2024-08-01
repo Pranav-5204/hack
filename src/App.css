@@ -151,6 +151,32 @@ h1 {
 
 .result-box p strong {
   color: #333;
+<<<<<<< HEAD
+}
+
+.progress-bar {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/* Add different colors for each progress bar */
+.progress-bar:nth-of-type(1) .CircularProgressbar-path {
+  stroke: #32cd32; /* Green */
+}
+
+.progress-bar:nth-of-type(2) .CircularProgressbar-path {
+  stroke: #ffa500; /* Orange */
+}
+
+.progress-bar:nth-of-type(3) .CircularProgressbar-path {
+  stroke: #1e90ff; /* Blue */
+}
+
+.progress-bar:nth-of-type(4) .CircularProgressbar-path {
+  stroke: #6a5acd; /* Purple */
+=======
+>>>>>>> 836aea1f18b3e735c4ab71613c3760645231b7d6
 }
 
 .progress-bar {
@@ -175,3 +201,4 @@ h1 {
 .progress-bar:nth-of-type(4) .CircularProgressbar-path {
   stroke: #6a5acd; /* Purple */
 }
+
